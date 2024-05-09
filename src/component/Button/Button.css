@@ -1,0 +1,44 @@
+
+
+.container{
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(182, 166, 230) ;
+
+}
+.calsi{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+form input{
+    border: none ;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    background-color: lightslategray;
+    margin: 3px;
+    font-weight: bold;
+    border-radius: 3px;
+
+
+}
+form input[type='button']:hover{
+    background-color: rgb(135, 135, 222);
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0px 13px 0px;
+}
+form .display input{
+    text-align: right;
+   
+    flex: 1;
+}

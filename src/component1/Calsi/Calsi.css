@@ -1,0 +1,37 @@
+body{
+    background-color: #171717;
+    transition: 0.3s;
+    margin: 0;
+
+}
+ .main-header{
+    min-height: 100vh;
+    min-width: 300px;
+} 
+.calculator{
+    background-color:white;
+    border-radius: 20px;
+    padding: 20px; 
+  width: 400px;
+   
+    margin:0 auto;
+    margin-top: 100px;
+    padding-top:25px;
+    transition: 0.3s;
+    margin-bottom: 25px;
+
+    width: 400px;
+}
+
+    .parent{
+        display: flex;
+        /* border: none;
+        height: 50px;
+        width: 50px;
+        font-size: 18px;
+        background-color: lightslategray;
+        margin: 3px;
+        font-weight: bold;
+        border-radius: 3px; */
+    
+    }
